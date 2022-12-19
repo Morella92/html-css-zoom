@@ -38,7 +38,7 @@ ol, ul, menu{
     list-style: none;
 }
 
-section{
+body{
     height: 100vh;
 }
 
@@ -46,8 +46,6 @@ section{
     display: flex;
     justify-content: space-between;
 }
-
-
 
 .col-7{
     width: 182px;
@@ -72,12 +70,19 @@ section{
 
 footer{
     background-color: #222222;
+    display: flex;
+    align-content: center;
 }
 
 .container-footer{
     margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
 }
 
+.row-footer{
+    flex-basis: calc(100% / 3);
+}
 .col-footer{
     color: white;
     text-align: center;
@@ -86,17 +91,22 @@ footer{
 ul{
     display: flex;
     align-content: space-between;
-
 }
 
 .icons{
     font-size: 20px;
 }
 
-.icon-arrow{
-    font-size: 15px;
+.icons-arrow{
+    font-size: 9px;
 }
 
 .p-footer{
-    font-size: 10px;
+    font-size: 15px;
+}
+
+.last-col{
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
 }
