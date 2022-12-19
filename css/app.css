@@ -19,8 +19,17 @@ a{
     color: currentColor;
 }
 
+body{
+    background-color: black;
+}
+
+main{
+    padding: 36px;
+}
+
 .container {
-	max-width: 1000px;
+	max-width: 1308px;
+    max-height: 589px;
 	margin: 0 auto;
 }
 
@@ -28,15 +37,44 @@ ol, ul, menu{
     list-style: none;
 }
 
-.main-content{
-    height: 100vh;
-    width: 914px;
+.row{
     display: flex;
-    align-content: center;
-    border: 2px solid black;
+    justify-content: space-between;
 }
+
+.main-content{
+    border: 2px solid red;
+}
+
+.col-7{
+    width: 182px;
+
+}
+
+.card-image{
+    position: relative;
+}
+
+.card-info{
+    color: white;
+    width: 70px;
+    height: 18px;
+    background-color: #68717D;
+    font-size: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+
+
+
+
+
 
 footer{
     height: 78px;
-    background-color: black;
+    background-color: #222222;
 }
