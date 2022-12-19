@@ -70,15 +70,33 @@ section{
     left: 0;
 }
 
-
-
-
-
-
-
-
-
 footer{
-    height: 78px;
     background-color: #222222;
+}
+
+.container-footer{
+    margin-top: 25px;
+}
+
+.col-footer{
+    color: white;
+    text-align: center;
+}
+
+ul{
+    display: flex;
+    align-content: space-between;
+
+}
+
+.icons{
+    font-size: 20px;
+}
+
+.icon-arrow{
+    font-size: 15px;
+}
+
+.p-footer{
+    font-size: 10px;
 }
